@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+}
+#head{
+    padding: 10px 5px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+    line-height: 40px;
+}
+#head h1{
+    font-style: initial;
+    font-size: 60px;
+    color: palevioletred;
+}
+#head button{
+    background-color: blue;
+    height: 60%;
+    width: 8%;
+    color: white;
+}
+#head button:hover{
+    background-color: rgb(4, 4, 90);
+}
+#middle1{
+    margin-top: 15px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.test1{
+    height: 100%;
+    width: 25%;
+}
+.test1 a{
+    padding: 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+.test1:hover{
+    background-color: rgb(246, 163, 177);
+}
+#middle2{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1455849318743-b2233052fcff?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: 0 55%;
+}
+#last1{
+    padding: 5px 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 35%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+#about{
+    font-size: 20px;
+}
+#about p{
+    line-height: 20px;
+}
+#emoji{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80%;
+    width: 25%;
+}
+#handles{
+    padding: 4px 0;
+    height: 80%;
+    width: 25%;
+}
+
+.text1{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 4px;
+    margin: 6px;
+    height: 35%;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+.text1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.text1:hover{
+    background-color: rgb(246, 163, 177);
+}
+.text1 i{
+    font-size: 25px;
+    opacity: 0;
+}
+.text1:hover i{
+    opacity: 1;
+}
+#emoji i{
+    height: 30px;
+    font-weight: 60px;
+    font-size: 25px;
+    border-radius: 40%;
+    color: black;
+    background-color: rgb(246, 163, 177);
+    opacity: 0;
+}
+#emoji:hover i{
+    opacity: 1;
+}
+
+
